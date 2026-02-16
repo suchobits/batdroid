@@ -1,0 +1,23 @@
+{
+  "name": "batdroid",
+  "version": "0.1.0",
+  "description": "Android Emulator MCP Server — screenshot, interact, verify Android apps via ADB",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "batdroid": "dist/server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": ["mcp", "android", "adb", "emulator"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.0"
+  }
+}
